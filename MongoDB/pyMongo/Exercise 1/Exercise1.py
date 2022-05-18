@@ -75,4 +75,4 @@ query = COLLECTION.find({"address.city":{"$in": ["Kollam", "Trivandrum"]}})
 for q in query:
     print(q["name"]["fname"] + q["name"]["lname"])
 
-#COLLECTION.update_one({"name.fname":"Renuka"}, {"$set":{"name.fname":"Renuka Nelwin"}})
+
